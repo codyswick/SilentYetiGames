@@ -1,0 +1,1784 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<!--
+
+	LEFT TO DO:
+
+		- Form validation
+
+	 -->
+
+	<meta charset="utf-8" />
+
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+	<title>Silent Yeti Games</title>
+
+
+
+	<!-- FavIcon -->
+
+<!-- bootstrap -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+
+	<!-- jQuery -->
+
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+
+
+
+
+
+	<!-- For Animation -->
+
+	<script type="text/javascript" src="js/animatescroll.min.js"></script>
+
+
+
+	<!-- App Styles -->
+
+	<link rel="stylesheet" href="css/stylesheet.css" />
+
+
+
+	<!-- Fonts -->
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+
+
+
+	<!--/. Font Awesome v5 2018 -->
+
+	<script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+
+</head>
+
+<body>
+
+	<header class="header">
+
+		<a href="#" class="logo header-logo">
+
+			<img id="logo" src="pictures/mylogo2.png" alt="Silent Yeti Games">
+
+		</a>
+
+
+
+		<a href="#" class="menu-trigger nav-trigger">
+
+			<i class="menu-trigger-bar top"></i>
+
+
+
+			<i class="menu-trigger-bar middle"></i>
+
+
+
+			<i class="menu-trigger-bar bottom"></i>
+
+		</a>
+
+
+
+		<div class="header-content">
+
+			<a href="#" class="close-trigger">
+
+				<i class="close-trigger-bar left"></i>
+
+
+
+				<i class="close-trigger-bar right"></i>
+
+			</a>
+
+
+
+			<div class="nav">
+
+				<ul>
+
+					<li>
+
+						<a href="#projects" class="link" id="btnProjects">Games</a>
+
+					</li>
+
+
+
+					<li>
+
+						<a href="#" class="link" data-toggle="modal" data-target="#project4">Social Media</a>
+
+					</li>
+
+				</ul>
+
+			</div><!-- /.nav -->
+
+		</div><!-- /.header-content -->
+
+	</header><!-- /.header -->
+
+
+
+	<div class="cover">
+
+		<div class="cover-video">
+
+			<video class="cover-video" autoplay="" loop="" muted=""  >
+
+				<source src="pictures/LoL.mp4" type="video/mp4">
+
+
+
+
+				<!--source src="css/video/videowebm.webm" type="video/webm"-->
+
+				<!-- <source src="css/video/ogv-2.ogv" type="video/ogg"> -->
+
+			</video>
+
+		</div><!-- /.cover-video -->
+
+
+
+		<div class="cover-container">
+
+			<div class="container">
+
+				<div class="cover-inner">
+
+					<div class="cover-content">
+
+						<h1 class="cover-title">Silent Yeti <span class='name-span'> Games</span></h1><!-- /.cover-title -->
+
+
+
+						<div class="cover-entry">
+
+							<p>League Of Legends</p>
+							<p>Call Of Duty: Warzone</p>
+							<p>World Of warcraft</p>
+
+						</div><!-- /.cover-entry -->
+
+
+
+						<div class="cover-actions" data-toggle="modal" data-target="#modalQuickView">
+
+							<a href="#" class="btn click" data-i='1'>
+
+								<span class="btn-text">Videos</span>
+
+
+
+								<div class="btn-mask"></div>
+
+
+
+								<span class="btn-icon">
+
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476.213 476.213">
+										<path d="M405.606 167.5l-21.212 21.213 34.393 34.393H0v30h418.787L384.394 287.5l21.212 21.213 70.607-70.607"></path>
+
+									</svg>
+
+								</span>
+
+							</a>
+
+						</div><!-- /.cover-actions -->
+
+					</div><!-- /.cover-content -->
+
+
+
+					<a href="#" class="hero-go-next no-smoothstate">
+
+						<div class="go-next-label">Games</div>
+
+
+
+						<span class="the-arrow arrow-down"></span>
+
+					</a>
+
+				</div><!-- /.cover-inner -->
+
+			</div><!-- /.container -->
+
+		</div><!-- /.cover-container -->
+
+	</div><!-- /.cover -->
+
+
+
+	<div class="section-heading">
+
+		<p class="heading"></p><!-- /.heading -->
+
+
+
+		<p class="subheading">Games</p><!-- /.subheading -->
+
+	</div><!-- /.section-heading -->
+
+
+
+	<div class="animation-wrapper">
+
+		<ul class="case-studies-list section" data-anchor="projectsPage" id="projects">
+
+			<li>
+
+				<a   site id="lato" style="background-image: url('pictures/kaisa.jpg');" class="case-study">
+
+					<div class="case-study-mask"></div>
+
+
+
+					<div class="case-study-reveal-mask"></div>
+
+
+
+					<div class="case-study-mask-number">
+
+						<div class="case-study-mask-back">01</div>
+
+
+
+						<div class="case-study-mask-front">
+
+							<div class="case-study-mask-overlay" data-index='01'>01</div>
+
+						</div>
+
+					</div>
+
+					<div class="case-study-text-section">
+
+						<h3 class="h2 case-study-title">League Of Legends</h3>
+
+
+
+						<h5 class="case-study-subtitle"></h5>
+
+
+
+						<button type='buttn'class="btn click" data-toggle="modal" data-target="#project1">
+
+							<span class="btn-text">View More</span>
+
+
+
+							<div class="btn-mask"></div>
+
+
+
+							<span class="btn-icon">
+
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476.213 476.213">
+
+									<path d="M405.606 167.5l-21.212 21.213 34.393 34.393H0v30h418.787L384.394 287.5l21.212 21.213 70.607-70.607"></path>
+
+								</svg>
+
+							</span>
+
+						</button>
+
+					</div>
+
+				</a>
+
+			</li>
+
+
+
+			<li>
+
+				<a  target="_blank" style="background-image: url('pictures/warzone.jpg');" class="case-study">
+
+					<div class="case-study-mask"></div>
+
+
+
+					<div class="case-study-reveal-mask"></div>
+
+
+
+					<div class="case-study-mask-number">
+
+						<div class="case-study-mask-back">02</div>
+
+
+
+						<div class="case-study-mask-front">
+
+							<div data-index="02" class="case-study-mask-overlay">02</div>
+
+						</div>
+
+					</div>
+
+
+
+					<div class="case-study-text-section">
+
+						<h3 class="h2 case-study-title">Call of Duty</h3>
+
+
+
+						<h5 class="case-study-subtitle">Warzone</h5>
+
+
+
+						<button type='buttn'class="btn click" data-toggle="modal" data-target="#project2">
+
+							<span class="btn-text">View More</span>
+
+
+
+							<div class="btn-mask"></div>
+
+
+
+							<span class="btn-icon">
+
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476.213 476.213">
+
+									<path d="M405.606 167.5l-21.212 21.213 34.393 34.393H0v30h418.787L384.394 287.5l21.212 21.213 70.607-70.607"></path>
+
+								</svg>
+
+							</span>
+
+						</button>
+
+					</div>
+
+				</a>
+
+			</li>
+
+
+
+			<li>
+
+				<a  target="_blank" id="la-francesca" style="background: url('pictures/wow.jpg');" class="case-study">
+
+					<div class="case-study-mask"></div>
+
+
+
+					<div class="case-study-reveal-mask"></div>
+
+
+
+					<div class="case-study-mask-number">
+
+						<div class="case-study-mask-back">03</div>
+
+
+
+						<div class="case-study-mask-front">
+
+							<div class="case-study-mask-overlay" data-index='03'>03</div>
+
+						</div>
+
+					</div>
+
+
+
+					<div class="case-study-text-section">
+
+						<h3 class="h2 case-study-title">World Of Warcraft</h3>
+
+
+
+						<h5 class="case-study-subtitle">ShadowLands</h5>
+
+
+
+						<button type='buttn'class="btn click" data-toggle="modal" data-target="#project3">
+
+							<span class="btn-text">View More</span>
+
+
+
+							<div class="btn-mask"></div>
+
+							<span class="btn-icon">
+
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476.213 476.213">
+
+									<path d="M405.606 167.5l-21.212 21.213 34.393 34.393H0v30h418.787L384.394 287.5l21.212 21.213 70.607-70.607"></path>
+
+								</svg>
+
+							</span>
+
+						</button>
+
+					</div>
+
+				</a>
+
+			</li>
+
+			<li>
+
+				<a  target="_blank" id="lato" style="background-image: url('pictures/youtube-logo.jpg');" class="case-study">
+
+					<div class="case-study-mask"></div>
+
+
+
+					<div class="case-study-reveal-mask"></div>
+
+
+
+					<div class="case-study-mask-number">
+
+						<div class="case-study-mask-back">04</div>
+
+
+
+						<div class="case-study-mask-front">
+
+							<div class="case-study-mask-overlay" data-index='04'>04</div>
+
+						</div>
+
+					</div>
+
+					<div class="case-study-text-section">
+
+						<h3 class="h2 case-study-title">Social Media</h3>
+
+
+
+						<h5 class="case-study-subtitle">Youtube Channel, Facebook, Twitch</h5>
+
+
+
+						<button type='buttn'class="btn click" data-toggle="modal" data-target="#project4"class="btn">
+
+							<span class="btn-text">View More</span>
+
+
+
+							<div class="btn-mask"></div>
+
+
+
+							<span class="btn-icon">
+
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476.213 476.213">
+
+									<path d="M405.606 167.5l-21.212 21.213 34.393 34.393H0v30h418.787L384.394 287.5l21.212 21.213 70.607-70.607"></path>
+
+								</svg>
+
+							</span>
+
+						</button>
+
+					</div>
+
+				</a>
+
+			</li>
+
+			<div id="more-content">
+				<li>
+
+					<a href="https://codyswick.github.io/SpoobyMusicstore.github.io/" target="_blank" id="lato" style="background-image: url('pictures/site1.jpg');" class="case-study">
+
+						<div class="case-study-mask"></div>
+
+
+
+						<div class="case-study-reveal-mask"></div>
+
+
+
+						<div class="case-study-mask-number">
+
+							<div class="case-study-mask-back">05</div>
+
+
+
+							<div class="case-study-mask-front">
+
+								<div class="case-study-mask-overlay" data-index='05'>05</div>
+
+							</div>
+
+						</div>
+
+						<div class="case-study-text-section">
+
+							<h3 class="h2 case-study-title">Spooby Music Store</h3>
+
+
+
+							<h5 class="case-study-subtitle">Buy your music online with spooby</h5>
+
+
+
+							<button class="btn">
+
+								<span class="btn-text">View More</span>
+
+
+
+								<div class="btn-mask"></div>
+
+
+
+								<span class="btn-icon">
+
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476.213 476.213">
+
+										<path d="M405.606 167.5l-21.212 21.213 34.393 34.393H0v30h418.787L384.394 287.5l21.212 21.213 70.607-70.607"></path>
+
+									</svg>
+
+								</span>
+
+							</button>
+
+						</div>
+
+					</a>
+
+				</li>
+				<li>
+
+					<a href="https://codyswick.github.io/SpoobyMusicstore.github.io/" target="_blank" id="lato" style="background-image: url('pictures/site2.jpg');" class="case-study">
+
+						<div class="case-study-mask"></div>
+
+
+
+						<div class="case-study-reveal-mask"></div>
+
+
+
+						<div class="case-study-mask-number">
+
+							<div class="case-study-mask-back">06</div>
+
+
+
+							<div class="case-study-mask-front">
+
+								<div class="case-study-mask-overlay" data-index='06'>06</div>
+
+							</div>
+
+						</div>
+
+						<div class="case-study-text-section">
+
+							<h3 class="h2 case-study-title">My Little Toy Store</h3>
+
+
+
+							<h5 class="case-study-subtitle">Interactive toy store Website</h5>
+
+
+
+							<button class="btn">
+
+								<span class="btn-text">View More</span>
+
+
+
+								<div class="btn-mask"></div>
+
+
+
+								<span class="btn-icon">
+
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476.213 476.213">
+
+										<path d="M405.606 167.5l-21.212 21.213 34.393 34.393H0v30h418.787L384.394 287.5l21.212 21.213 70.607-70.607"></path>
+
+									</svg>
+
+								</span>
+
+							</button>
+
+						</div>
+
+					</a>
+
+				</li>
+				<li>
+
+					<a href="https://www.youtube.com/channel/UCCjXgjBR7_S6KsDmy5hkHUg?view_as=subscriber" target="_blank" id="lato" style="background-image: url('pictures/site3.jpg');" class="case-study">
+
+						<div class="case-study-mask"></div>
+
+
+
+						<div class="case-study-reveal-mask"></div>
+
+
+
+						<div class="case-study-mask-number">
+
+							<div class="case-study-mask-back">07</div>
+
+
+
+							<div class="case-study-mask-front">
+
+								<div class="case-study-mask-overlay" data-index='07'>07</div>
+
+							</div>
+
+						</div>
+
+						<div class="case-study-text-section">
+
+							<h3 class="h2 case-study-title">Your Wife's Purse Store</h3>
+
+
+
+							<h5 class="case-study-subtitle">Online shopping cart for purses</h5>
+
+
+
+							<button class="btn">
+
+								<span class="btn-text">View More</span>
+
+
+
+								<div class="btn-mask"></div>
+
+
+
+								<span class="btn-icon">
+
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476.213 476.213">
+
+										<path d="M405.606 167.5l-21.212 21.213 34.393 34.393H0v30h418.787L384.394 287.5l21.212 21.213 70.607-70.607"></path>
+
+									</svg>
+
+								</span>
+
+							</button>
+
+						</div>
+
+					</a>
+
+				</li>
+				<li>
+
+					<a href="https://www.youtube.com/channel/UCCjXgjBR7_S6KsDmy5hkHUg?view_as=subscriber" target="_blank" id="lato" style="background-image: url('pictures/comp1.jpg');" class="case-study">
+
+						<div class="case-study-mask"></div>
+
+
+
+						<div class="case-study-reveal-mask"></div>
+
+
+
+						<div class="case-study-mask-number">
+
+							<div class="case-study-mask-back">08</div>
+
+
+
+							<div class="case-study-mask-front">
+
+								<div class="case-study-mask-overlay" data-index='08'>08</div>
+
+							</div>
+
+						</div>
+
+						<div class="case-study-text-section">
+
+							<h3 class="h2 case-study-title">Freelance dot com</h3>
+
+
+
+							<h5 class="case-study-subtitle">Online comunity </h5>
+
+
+
+							<button class="btn">
+
+								<span class="btn-text">View More</span>
+
+
+
+								<div class="btn-mask"></div>
+
+
+
+								<span class="btn-icon">
+
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476.213 476.213">
+
+										<path d="M405.606 167.5l-21.212 21.213 34.393 34.393H0v30h418.787L384.394 287.5l21.212 21.213 70.607-70.607"></path>
+
+									</svg>
+
+								</span>
+
+							</button>
+
+						</div>
+
+					</a>
+
+				</li>
+				<li>
+
+					<a href="https://www.youtube.com/channel/UCCjXgjBR7_S6KsDmy5hkHUg?view_as=subscriber" target="_blank" id="lato" style="background-image: url('pictures/pizza.jpg');" class="case-study">
+
+						<div class="case-study-mask"></div>
+
+
+
+						<div class="case-study-reveal-mask"></div>
+
+
+
+						<div class="case-study-mask-number">
+
+							<div class="case-study-mask-back">09</div>
+
+
+
+							<div class="case-study-mask-front">
+
+								<div class="case-study-mask-overlay" data-index='09'>09</div>
+
+							</div>
+
+						</div>
+
+						<div class="case-study-text-section">
+
+							<h3 class="h2 case-study-title">Little MIssy Pizza</h3>
+
+
+
+							<h5 class="case-study-subtitle">Online ordering, shopping cart, html, javascript, react</h5>
+
+
+
+							<button class="btn">
+
+								<span class="btn-text">View More</span>
+
+
+
+								<div class="btn-mask"></div>
+
+
+
+								<span class="btn-icon">
+
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476.213 476.213">
+
+										<path d="M405.606 167.5l-21.212 21.213 34.393 34.393H0v30h418.787L384.394 287.5l21.212 21.213 70.607-70.607"></path>
+
+									</svg>
+
+								</span>
+
+							</button>
+
+						</div>
+
+					</a>
+
+				</li>
+				<li>
+
+					<a href="https://www.youtube.com/channel/UCCjXgjBR7_S6KsDmy5hkHUg?view_as=subscriber" target="_blank" id="lato" style="background-image: url('pictures/beer.jpg');" class="case-study">
+
+						<div class="case-study-mask"></div>
+
+
+
+						<div class="case-study-reveal-mask"></div>
+
+
+
+						<div class="case-study-mask-number">
+
+							<div class="case-study-mask-back">10</div>
+
+
+
+							<div class="case-study-mask-front">
+
+								<div class="case-study-mask-overlay" data-index='10'>10</div>
+
+							</div>
+
+						</div>
+
+						<div class="case-study-text-section">
+
+							<h3 class="h2 case-study-title">Pokey's Fine Wine and Spirits</h3>
+
+
+
+							<h5 class="case-study-subtitle">beer </h5>
+
+
+
+							<button class="btn">
+
+								<span class="btn-text">View More</span>
+
+
+
+								<div class="btn-mask"></div>
+
+
+
+								<span class="btn-icon">
+
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476.213 476.213">
+
+										<path d="M405.606 167.5l-21.212 21.213 34.393 34.393H0v30h418.787L384.394 287.5l21.212 21.213 70.607-70.607"></path>
+
+									</svg>
+
+								</span>
+
+							</button>
+
+						</div>
+
+					</a>
+
+				</li>
+				<li>
+
+					<a href="https://www.youtube.com/channel/UCCjXgjBR7_S6KsDmy5hkHUg?view_as=subscriber" target="_blank" id="lato" style="background-image: url('pictures/chevy.jpg');" class="case-study">
+
+						<div class="case-study-mask"></div>
+
+
+
+						<div class="case-study-reveal-mask"></div>
+
+
+
+						<div class="case-study-mask-number">
+
+							<div class="case-study-mask-back">11</div>
+
+
+
+							<div class="case-study-mask-front">
+
+								<div class="case-study-mask-overlay" data-index='11'>11</div>
+
+							</div>
+
+						</div>
+
+						<div class="case-study-text-section">
+
+							<h3 class="h2 case-study-title">Chevy</h3>
+
+
+
+							<h5 class="case-study-subtitle">HTML, CSS, SASS, BootStrap, JavaScript</h5>
+
+
+
+							<button class="btn">
+
+								<span class="btn-text">View More</span>
+
+
+
+								<div class="btn-mask"></div>
+
+
+
+								<span class="btn-icon">
+
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476.213 476.213">
+
+										<path d="M405.606 167.5l-21.212 21.213 34.393 34.393H0v30h418.787L384.394 287.5l21.212 21.213 70.607-70.607"></path>
+
+									</svg>
+
+								</span>
+
+							</button>
+
+						</div>
+
+					</a>
+
+				</li>
+			</div>
+
+		</ul>
+
+
+		<!--Button for more-->
+
+		<!--<div id='more-button' class="more">
+
+			<a id='more-button' class="btn" onclick="more();">
+
+				<span class="btn-text">View All</span>
+
+
+
+				<div class="btn-mask"></div>
+
+
+
+				<span class="btn-icon">
+
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476.213 476.213">
+						<path d="M405.606 167.5l-21.212 21.213 34.393 34.393H0v30h418.787L384.394 287.5l21.212 21.213 70.607-70.607"></path>
+
+					</svg>
+
+				</span>
+
+			</a>-->
+
+		</div><!-- /.cover-actions -->
+
+	</div><!-- /.cover-content -->
+	</div><!-- /.animation-wrapper -->
+
+	<div class="clearfix"></div><!-- /.clearfix -->
+
+
+
+	<footer class="footer">
+
+		<div class="footer-content">
+
+			<a href="#" id="goToLogo" class="logo logo--white">
+
+				<img src="pictures/mylogo2.png" alt="Logo">
+
+			</a>
+
+
+
+			<ul>
+
+				<a href="https://www.youtube.com/channel/UCCjXgjBR7_S6KsDmy5hkHUg?view_as=subscriber" target="_blank" class="links-bot1">YouTube</a>
+
+
+
+				<a href="https://www.twitch.tv/silentyetigames" target="_blank" class="links-bot2" color=>Twitch</a>
+
+
+
+				<a href="https://www.facebook.com/SilentYetiGames/videos" target="_blank" class="links-bot3">Facebook</a>
+
+
+
+
+
+			</ul>
+
+			<p class="footer-copy">
+
+				&copy; 2021 Cody Swick - <a Contact<a href="#" class="link" data-toggle="modal" data-target="#project4">Contact</a>
+
+			</p><!-- /.footer-copy -->
+
+		</div><!-- /.footer-content -->
+
+	</footer><!-- /.footer -->
+
+
+<!-- Modals -->
+
+
+<!-- Modal: modalQuickView -->
+<div class="modal fade" id="modalQuickView" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+	aria-hidden="true">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-lg-5">
+						<!--Carousel Wrapper-->
+						<div id="carousel-thumb" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
+							<!--Slides-->
+							<div class="carousel-inner" role="listbox">
+								<div class="carousel-item active">
+									<p>Responsive Websites</p>
+
+								</div>
+								<div class="carousel-item">
+
+								</div>
+								<div class="carousel-item">
+									<p>Solution-driven professional excelling in a highly collaborative work environment, finding solutions to challenges and focused on the customer. Proven experience developing consumer- focused web sites using HTML, CSS, jQuery, PHP and JavaScript. Building products for desktop, phone and mobile app users, meeting the highest standards for web design, user experience, best practices, usability and speed. Responding to challenges by designing and developing solutions and building web applications aligned to the customer's services. Translating solutions into code and working across many different APIs, third-party integrations and databases please review my Github profile. Here is my downloadable resume.</p>
+								</div>
+							</div>
+							<!--/.Slides-->
+							<!--Controls-->
+							<a class="carousel-control-prev" href="#carousel-thumb" role="button" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#carousel-thumb" role="button" data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+							<!--/.Controls-->
+
+						</div>
+						<!--/.Carousel Wrapper-->
+					</div>
+					<div class="col-lg-7">
+						<h2 class="h2-responsive product-name">
+							<strong>Contact</strong>
+						</h2>
+
+							<span class="grey-text">
+								<small>
+									<s></s>
+								</small>
+							</span>
+						</h4>
+
+						<!--Accordion wrapper-->
+						<div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
+
+							<!-- Accordion card -->
+							<div class="card">
+
+								<!-- Card header -->
+								<div class="card-header" role="tab" id="headingOne1">
+									<a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true"
+										aria-controls="collapseOne1">
+										<h5 class="mb-0">
+											Lets Talk <i class="fas fa-angle-down rotate-icon"></i>
+										</h5>
+									</a>
+								</div>
+
+								<!-- Card body -->
+								<div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1"
+									data-parent="#accordionEx">
+									<div class="card-body">
+										<div class="form-body">
+											<h4 class="h4-responsive">
+												<span class="small-text">
+													new projects, Freelance inquiry or meet-up
+												</span>
+
+											<label for="name">Name *</label>
+
+
+
+											<input type="text" name="name">
+
+
+
+											<label for="email">E-mail *</label>
+
+
+
+											<input type="email" name="email">
+
+
+
+
+											<label for="message">Message *</label>
+
+
+
+											<textarea name="message" rows="5" name="message"></textarea>
+
+										</div>
+										<div id="submit">
+											<button type = "button"class="btn btn-primary">Submit</button>
+										</div>
+
+
+									</div>
+
+								</div>
+
+							</div>
+							<!-- Accordion card -->
+
+							<!-- Accordion card -->
+							<div class="card">
+
+								<!-- Card header -->
+								<div class="card-header" role="tab" id="headingTwo2">
+									<a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo2"
+										aria-expanded="false" aria-controls="collapseTwo2">
+										<h5 class="mb-0">
+											About Me <i class="fas fa-angle-down rotate-icon"></i>
+										</h5>
+									</a>
+								</div>
+
+								<!-- Card body -->
+								<div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2"
+									data-parent="#accordionEx">
+									<div class="card-body">
+										Solution-driven professional excelling in a highly collaborative work environment, finding solutions to challenges and focused on the customer. Proven experience developing consumer- focused web sites using HTML, CSS, jQuery, PHP and
+										JavaScript. Building products for desktop, phone and mobile app users, meeting the highest standards for web design, user experience, best practices, usability and speed. Responding to challenges by designing and developing solutions and
+										building web applications aligned to the customer's services. Translating solutions into code and working across many different APIs, third-party integrations and databases please review my <a href="https://github.com/codyswick" target="-blank"
+											class="underlined">Github</a> profile.
+
+										<a href="Codyswickresume.doc" class="underlined" download>Here</a> is my downloadable resume.
+									</div>
+								</div>
+
+							</div>
+							<!-- Accordion card -->
+
+							<!-- Accordion card -->
+							<div class="card">
+
+								<!-- Card header -->
+								<div class="card-header" role="tab" id="headingThree3">
+									<a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree3"
+										aria-expanded="false" aria-controls="collapseThree3">
+										<h5 class="mb-0">
+											Languages and Technologies <i class="fas fa-angle-down rotate-icon"></i>
+										</h5>
+									</a>
+								</div>
+
+								<!-- Card body -->
+								<div id="collapseThree3" class="collapse" role="tabpanel" aria-labelledby="headingThree3"
+									data-parent="#accordionEx">
+									<div class="card-body">
+										<ul>
+											<li>HTML</li>
+											<li>CSS</li>
+											<li>SASS</li>
+											<li>JavaScript</li>
+											<li>Bootstrap</li>
+											<li>jQuery</li>
+										</ul>
+
+									</div>
+								</div>
+
+							</div>
+							<!-- Accordion card -->
+
+						</div>
+						<!-- Accordion wrapper -->
+
+
+						<!-- Add to Cart
+						<div class="card-body">
+							<div class="row">
+								<div class="col-md-6">
+
+									<select class="md-form mdb-select colorful-select dropdown-primary">
+										<option value="" disabled selected>Choose your option</option>
+										<option value="1">White</option>
+										<option value="2">Black</option>
+										<option value="3">Pink</option>
+									</select>
+									<label>Select color</label>
+
+								</div>
+								<div class="col-md-6">
+
+									<select class="md-form mdb-select colorful-select dropdown-primary">
+										<option value="" disabled selected>Choose your option</option>
+										<option value="1">XS</option>
+										<option value="2">S</option>
+										<option value="3">L</option>
+									</select>
+									<label>Select size</label>
+
+								</div>
+							</div>
+							<div class="text-center">
+
+								<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+
+							</div>
+						</div>
+						<!-- /.Add to Cart -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+	<!--
+end modal 1
+-->
+
+<!-- Modal: project1 -->
+
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+	aria-hidden="true">
+	<div class="modal-dialog  modal-lg modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-body">
+				<div class="container-fluid">
+
+
+
+					<div class="row ">
+    					<div class="col bg--white">
+								<h2 class='card-title'id ='title-color'>League Of Legends</h2>
+      					<p>League of Legends (LoL), commonly referred to as League, is a 2009 multiplayer online battle arena video game developed and published by Riot Games.</p>
+
+								<div class="modal-image">
+									<img src="pictures/League2.jpg" alt="" id='project-image'>
+								</div>
+								<div class="container">
+									<div class="background">
+
+
+									</div>
+
+
+							</div>
+
+
+  					  </div>
+    					<div class="col">
+
+								<h2 class='card-title'></h2>
+      					<p></p>
+								<div class= 'list'>
+									<ul>
+									<img src="pictures/League.jpg" alt="" id='project-image'>
+									</ul>
+								</div>
+
+								<div class="container">
+									<div class="background">
+
+
+									</div>
+									<a href="https://www..com/SilentYetiGames/videos" target='blank'>
+										<button type = "button"class="btn btn-size"id='space2'>
+										<span class="btn-text">View Videos</span>
+
+
+
+										<div class="btn-mask"></div>
+
+
+
+										<span class="btn-icon">
+
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476.213 476.213">
+
+												<path d="M405.606 167.5l-21.212 21.213 34.393 34.393H0v30h418.787L384.394 287.5l21.212 21.213 70.607-70.607"></path>
+
+											</svg>
+
+										</span>
+
+									</button>
+								</a>
+
+
+									<a href="https://na.leagueoflegends.com/en-us/" target='blank'>
+										<button type = "button"class="btn btn-size"id='space2'>
+										<span class="btn-text">View Game Site</span>
+
+
+
+										<div class="btn-mask"></div>
+
+
+
+										<span class="btn-icon">
+
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476.213 476.213">
+
+												<path d="M405.606 167.5l-21.212 21.213 34.393 34.393H0v30h418.787L384.394 287.5l21.212 21.213 70.607-70.607"></path>
+
+											</svg>
+
+										</span>
+
+									</button>
+								</a>
+
+
+
+								</div>
+
+
+    					</div>
+
+  					</div>
+
+
+  					</div>
+					</div>
+
+
+
+			</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+<!-- end modal2-->
+
+
+
+<!-- Modal: project2 -->
+<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+	aria-hidden="true">
+	<div class="modal-dialog  modal-lg modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-body">
+				<div class="container-fluid">
+
+
+
+					<div class="row">
+    					<div class="col bg--white">
+								<h2 class='card-title'id ='title-color'>Call Of Duty: Warzone</h2>
+      					<p>Verdansk and the Cold War have collided, plunging players into a chaotic new world. Season Three of Warzone bursts onto the scene with a new look for Call of Duty's free-to-play Battle Royale experience.</p>
+
+								<div class="modal-image">
+									<img src="pictures/warzone.jpg" alt="" id='project-image'>
+								</div>
+								<div class="container">
+									<div class="background">
+
+
+									</div>
+
+
+							</div>
+
+
+  					  </div>
+    					<div class="col">
+
+								<h2 class='card-title'></h2>
+      					<p></p>
+								<div class= 'list'>
+
+										<img src="pictures/warzone3.jpg" height="50%" alt="" id='project-image'>
+
+								</div>
+
+								<div class="container">
+									<div class="background">
+
+
+									</div>
+									<a href="https://www.facebook.com/SilentYetiGames/videos" target='blank'>
+										<button type = "button"class="btn btn-size"id='space2'>
+										<span class="btn-text">View Videos</span>
+
+
+
+										<div class="btn-mask"></div>
+
+
+
+										<span class="btn-icon">
+
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476.213 476.213">
+
+												<path d="M405.606 167.5l-21.212 21.213 34.393 34.393H0v30h418.787L384.394 287.5l21.212 21.213 70.607-70.607"></path>
+
+											</svg>
+
+										</span>
+
+									</button>
+								</a>
+
+
+									<a href="https://www.callofduty.com/warzone" target='blank'>
+										<button type = "button"class="btn btn-size"id='space2'>
+										<span class="btn-text">View Game Site</span>
+
+
+
+										<div class="btn-mask"></div>
+
+
+
+										<span class="btn-icon">
+
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476.213 476.213">
+
+												<path d="M405.606 167.5l-21.212 21.213 34.393 34.393H0v30h418.787L384.394 287.5l21.212 21.213 70.607-70.607"></path>
+
+											</svg>
+
+										</span>
+
+									</button>
+								</a>
+
+
+								</div>
+
+
+    					</div>
+
+  					</div>
+
+
+  					</div>
+					</div>
+
+
+
+			</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+
+<!--project 2 end-->
+
+<!-- Modal: project3 -->
+<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+	aria-hidden="true">
+	<div class="modal-dialog  modal-lg modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-body">
+				<div class="container-fluid">
+
+
+
+					<div class="row ">
+    					<div class="col bg--white">
+								<h2 class='card-title'id ='title-color'>About this Game</h2>
+      					<p>World of Warcraft (WoW) is a massively multiplayer online role-playing game (MMORPG) released in 2004 by Blizzard Entertainment. Set in the Warcraft fantasy universe, World of Warcraft takes place within the world of Azeroth, approximately four years after the events of the previous game in the series, Warcraft III: The Frozen Throne.[3] The game was announced in 2001, and was released for the 10th anniversary of the Warcraft franchise on November 23, 2004. Since launch, World of Warcraft has had eight major expansion packs: The Burning Crusade (2007), Wrath of the Lich King (2008), Cataclysm (2010), Mists of Pandaria (2012), Warlords of Draenor (2014), Legion (2016), Battle for Azeroth (2018), and Shadowlands (2020).</p>
+
+								<div class="modal-image">
+									<img src="pictures/wow2.png" alt="" id='project-image'>
+								</div>
+								<div class="container">
+									<div class="background">
+
+
+									</div>
+
+
+							</div>
+
+
+  					  </div>
+    					<div class="col">
+
+								<h2 class='card-title'>About this site</h2>
+      					<p></p>
+								<div class= 'list'>
+									<ul>
+											<img src="pictures/wow3.jpg" alt="" id='project-image'>
+									</ul>
+								</div>
+
+								<div class="container">
+									<div class="background">
+
+
+									</div>
+									<a href="https://www.facebook.com/SilentYetiGames/videos" target='blank'>
+										<button type = "button"class="btn btn-size"id='space2'>
+										<span class="btn-text">View Videos</span>
+
+
+
+										<div class="btn-mask"></div>
+
+
+
+										<span class="btn-icon">
+
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476.213 476.213">
+
+												<path d="M405.606 167.5l-21.212 21.213 34.393 34.393H0v30h418.787L384.394 287.5l21.212 21.213 70.607-70.607"></path>
+
+											</svg>
+
+										</span>
+
+									</button>
+								</a>
+
+
+									<a href="https://worldofwarcraft.com/en-us/" target='blank'>
+										<button type = "button"class="btn btn-size"id='space2'>
+										<span class="btn-text">View Game Site</span>
+
+
+
+										<div class="btn-mask"></div>
+
+
+
+										<span class="btn-icon">
+
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476.213 476.213">
+
+												<path d="M405.606 167.5l-21.212 21.213 34.393 34.393H0v30h418.787L384.394 287.5l21.212 21.213 70.607-70.607"></path>
+
+											</svg>
+
+										</span>
+
+									</button>
+								</a>
+
+
+								</div>
+
+
+    					</div>
+
+  					</div>
+
+
+  					</div>
+					</div>
+
+
+
+			</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+
+<!--project 3 end-->
+
+<!-- Modal: project4 -->
+<div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+	aria-hidden="true">
+	<div class="modal-dialog  modal-lg modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-body">
+				<div class="container-fluid">
+
+
+
+					<div class="row ">
+    					<div class="col bg--white">
+								<h2 class='card-title'id ='title-color'>Social Media</h2>
+      					<p>Yetis Tech Corner youtube Channel</p>
+
+								<div class="modal-image">
+									<img src="pictures/youtube-logo.jpg" alt="" id='project-image'>
+								</div>
+								<div class="container">
+									<div class="background">
+
+
+									</div>
+
+
+							</div>
+
+
+  					  </div>
+    					<div class="col">
+
+								<h2 class='card-title'>Follow and Support me on:</h2>
+      					<p></p>
+								<div class= 'list'>
+									<ul>
+
+
+									</ul>
+								</div>
+
+								<div class="container">
+									<div class="background">
+
+
+									</div>
+									<a href="https://www.youtube.com/channel/UCCjXgjBR7_S6KsDmy5hkHUg?view_as=subscriber" target='blank'>
+										<button type = "button"class="btn btn-size"id='space2'>
+										<span class="btn-text">View Youtube</span>
+
+
+
+										<div class="btn-mask"></div>
+
+
+
+										<span class="btn-icon">
+
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476.213 476.213">
+
+												<path d="M405.606 167.5l-21.212 21.213 34.393 34.393H0v30h418.787L384.394 287.5l21.212 21.213 70.607-70.607"></path>
+
+											</svg>
+
+										</span>
+
+									</button>
+
+
+
+									<a href="https://www.facebook.com/SilentYetiGames/videos" target='blank'>
+										<button type = "button"class="btn btn-size"id='space2'>
+										<span class="btn-text">View Facebook</span>
+
+
+
+										<div class="btn-mask"></div>
+
+
+
+										<span class="btn-icon">
+
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476.213 476.213">
+
+												<path d="M405.606 167.5l-21.212 21.213 34.393 34.393H0v30h418.787L384.394 287.5l21.212 21.213 70.607-70.607"></path>
+
+											</svg>
+
+										</span>
+
+									</button>
+								</a>
+
+
+									<a href="https://www.twitch.tv/silentyetigames" target='blank'>
+										<button type = "button"class="btn btn-size"id='space2'>
+										<span class="btn-text">View Twitch</span>
+
+
+
+										<div class="btn-mask">
+
+										</div>
+
+
+
+										<span class="btn-icon">
+
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476.213 476.213">
+
+												<path d="M405.606 167.5l-21.212 21.213 34.393 34.393H0v30h418.787L384.394 287.5l21.212 21.213 70.607-70.607"></path>
+
+											</svg>
+
+										</span>
+
+									</button>
+								</a>
+
+
+								</div>
+
+
+    					</div>
+
+  					</div>
+
+
+  					</div>
+					</div>
+
+
+
+			</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+
+<!--project 4 end-->
+
+
+
+<script>
+// Material Select Initialization
+$(document).ready(function() {
+$('.mdb-select').materialSelect();
+});
+</script>
+<!--end modals-->
+
+
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+
+
+
+	<script src="js/animation.min.js"></script>
+
+	<script src="js/jquery.vide.min.js"></script>
+	<script src="js/functions.js"></script>
+
+
+
+</body>
+
+</html>
