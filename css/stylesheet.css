@@ -1281,13 +1281,13 @@ h6 {
     }
     .btn-size{
       height: 5%!important;
-      width: 40%;
+      width: 50%;
       position: absolute;
       margin-bottom: 0;
 
     }
     .btn-text{
-      font-size: 20px;
+      font-size: 18px;
     }
     .col p{
       margin-bottom: 20px!important;
